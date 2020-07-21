@@ -6,7 +6,7 @@ Auto gen doc from proto file , base on comments
 - protoc-gen-do see (https://github.com/pseudomuto/protoc-gen-do)
 - python2.x
 
-# How it work?
+# How it works?
 
 ``` shell script
 python process.py --scan path-to-proto --order 1
