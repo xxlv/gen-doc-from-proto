@@ -1,0 +1,12 @@
+# package 需要替换成空的字符串
+[[ignore_package_names]]
+ignore_package_name="-"
+
+# 解析方法名词时将指定的内容替换成空
+[ignore_proto]
+ignore_proto_suffix="Service.proto"
+
+# 将package 的名字进行替换替换
+[[rewrite_name]]
+source_name="Foo"
+target_name="Bar"

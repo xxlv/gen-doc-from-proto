@@ -1,0 +1,35 @@
+#### ${order}
+**描述：**
+
+- ${method.description}
+
+**请求API：**
+- ${package}.${method.name}
+
+**服务：**
+- ${service.name}
+
+**请求方式：**
+- POST
+
+**参数：**
+
+|参数名|类型|说明|
+|:---- |:----- |----- |
+${ReqLoopParams}
+
+**返回示例**
+ ``` json
+    ${jsonOfResponse}
+ ```
+
+**返回参数说明**
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+${RespLoopParams}
+
+**备注**
+ - ${method.fullName}
+
+----
